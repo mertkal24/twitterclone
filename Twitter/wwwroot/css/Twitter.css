@@ -1,0 +1,467 @@
+#wrap {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#nav-search {
+    position: relative;
+    width: 100%
+}
+.search-img{
+    width:50px;
+    height:50px;
+    margin-left:1rem;
+}
+.search-item-go-profile{
+    cursor:pointer;
+    width:100%;
+}
+.search-item-go-profile:hover{
+    background-color:red;
+}
+.search-result-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#nav-search input {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    width: 163px;
+    height: 14px;
+    padding: 6px 27px 6px 12px;
+    cursor: pointer;
+    background-color: #ebeef0;
+    border: none;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+}
+#nav-search .icon {
+        position: absolute;
+        display: block;
+        top: 4px;
+        left: 10px;
+        width: 25px;
+        height: 25px;
+        background: url("../img/searchbtn.png");
+        border: none;
+        text-indent: -300px;
+        padding: 0;
+    }
+.header-oneri {
+    border-bottom: 2px solid;
+}
+
+.takip-oneri {
+    margin-top: 5rem;
+    background-color: #f7f9fa;
+    border-radius: 20px;
+}
+
+.title-oneriler {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-oneriler {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.oneri-item {
+    height: 5rem;
+    width: 100%;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .oneri-item:hover {
+        background-color: #eff1f2;
+        color: black;
+        cursor: pointer;
+    }
+
+.oneri-item-user-name {
+    padding-left: 2px;
+}
+
+.oneri-item-foto {
+    padding-left: 2px;
+}
+
+.oneri-item-picture {
+    height: 60px;
+    width: 60px;
+    border: 1px #eef0f2 solid;
+}
+
+.oneri-add-friend-item {
+    width: 100%;
+    background-color: white;
+    border: 2px #1da1f2 solid;
+    color: #1da1f2;
+    border-radius: 25px;
+}
+.icon-button {
+    margin-top: 0.5rem;
+    background-color:white;
+}
+
+.tweetle {
+    margin-top: 1rem;
+    border-bottom: 1px #eef0f2 solid;
+    padding-bottom: 1rem;
+    margin-left: 1px;
+}
+
+.neler-oluyor {
+    height: 60px;
+    border: none;
+    width: 100%;
+    margin-top: 0.1rem;
+    text-align: justify;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-link:hover {
+    border: 0px solid;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #e8f5fe;
+    color: #00aced
+}
+.myNavbar {
+    font-size: 20px;
+}
+
+.gundem-settings {
+    color: #29a6f3;
+}
+
+.gundem-settings:hover {
+    color: #29a6f3;
+    background-color: #e1f0fa;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.myNavbar>.list-group>.list-group-item {
+    border: none;
+    padding: 0px;
+    right: 0px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.nav-button {
+    background-color: #1da1f2;
+    border: none;
+    color: white;
+    border: none;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.nav-button:hover {
+    background-color: #1a91da;
+    border: none;
+}
+
+.page-title {
+    font-size: 20px;
+    border: 1px #eef0f2 solid;
+    border-top: none;
+    background-color: white;
+    height: 3rem;
+}
+
+.left {
+    padding-right: 0px;
+}
+
+.middle-content {
+    border: 1px #eef0f2 solid;
+    border-top: none;
+}
+
+.page-title-bold {
+    margin-top: 0.5rem;
+}
+
+.twt-img {
+    color: #1da1f2;
+    font-size: 25px;
+}
+
+.twt-img:hover {
+    border: 0px solid;
+    background-color: #e8f5fe;
+    color: #1da1f2;
+}
+
+.twt-anket {
+    color: #1da1f2;
+    font-size: 25px;
+}
+
+.twt-anket:hover {
+    border: 0px solid;
+    background-color: #e8f5fe;
+    color: #1da1f2;
+}
+
+.twt-smile {
+    color: #1da1f2;
+    font-size: 25px;
+}
+
+.twt-smile:hover {
+    border: 0px solid;
+    background-color: #e8f5fe;
+    color: #1da1f2;
+}
+
+.twt-etkinlik {
+    color: #1da1f2;
+    font-size: 25px;
+}
+
+.twt-etkinlik:hover {
+    border: 0px solid;
+    background-color: #e8f5fe;
+    color: #1da1f2;
+}
+
+.tweetle-button {
+    background-color: #1da1f2;
+    border: none;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    width: 80%;
+}
+
+.tweetle-button:hover {
+    background-color: #1a91da;
+}
+
+.alltwt {
+    margin-left: 1px;
+}
+
+.tweet {
+    border-bottom: 1px #eef0f2 solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0px;
+    border-top: 1px #eef0f2 solid;
+}
+
+.twit-settings {
+    color: #cccccc;
+}
+
+.twit-settings:hover {
+    color: #cccccc;
+}
+
+.postButton {
+    text-decoration-color: none;
+    color: #919fac;
+    padding-top: 0.5rem;
+}
+
+.postButton:hover {
+    text-decoration-color: none;
+    color: #919fac;
+}
+
+.tweet-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.tweet-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #efefef;
+}
+
+.left-nav {
+    margin-left: 120px;
+}
+
+.header-oneri {
+    border-bottom: 2px solid;
+}
+
+.takip-oneri {
+    margin-top: 5rem;
+    background-color: #f7f9fa;
+    border-radius: 20px;
+}
+
+.title-oneriler {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-oneriler {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.oneri-item {
+    height: 5rem;
+    width: 100%;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oneri-item:hover {
+        background-color: #eff1f2;
+        color: black;
+        cursor: pointer;
+    }
+
+.oneri-item-user-name {
+    padding-left: 2px;
+}
+
+.oneri-item-foto {
+    padding-left: 2px;
+}
+
+.oneri-item-picture {
+    height: 60px;
+    width: 60px;
+    border: 1px #eef0f2 solid;
+}
+
+.oneri-add-friend-item {
+    width: 100%;
+    background-color: white;
+    border: 2px #1da1f2 solid;
+    color: #1da1f2;
+    border-radius: 25px;
+}
+
+
+
+.tweetler-btn{border:none; width: 100%; padding: 0px; background-color: white; height: 80px;}
+.tweetler-btn:hover{background-color: #e8f5fe; color:#30a9f3}
+.tweetler-yanitlar-btn{border:none; width: 100%; padding: 0px; background-color: white;height: 80px;}
+.tweetler-yanitlar-btn:hover{background-color: #e8f5fe;color:#30a9f3}
+.medya-btn{border:none; width: 100%; padding: 0px; background-color: white;height: 80px;}
+.medya-btn:hover{background-color: #e8f5fe;color:#30a9f3}
+.begeni-btn{border:none; width: 100%; padding: 0px; background-color: white;height: 80px;}
+.begeni-btn:hover{background-color: #e8f5fe;color:#30a9f3}
+.edit-profile{background-color: white; color:#30a9f3; border:1px  #30a9f3 solid; border-radius: 15px; border:5px thick; margin-top: 1rem;}
+  .ara{
+      height: 1rem;
+      background-color: #eff1f2;
+  }
+ 
+.custom-col{
+      margin: 0px;
+  }
+.row{
+      margin:0px;
+  }
+.post-icon-box > .col-md-1{
+    width: 5%;
+
+}
+.post-icon-box > .col-md-4{
+    width: 5%;
+}
+.post-button >.col-md-4 >.tweetle-button{
+    width: 10%;
+}
+body {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .post-pp {
+        width: 25%;
+    }
+    .tweetle-button{
+        width: 10%;
+    }
+    .tweetle-button > b{
+          display: none;
+    }
+    .post-buttons>.col-md-3 {
+        width: 25%;
+    }
+    .neler-oluyor{
+        width: 50%;
+    }
+    .right {
+        display: none;
+    }
+
+   .middle{
+       margin-left: 100px;
+       width: 400px;
+   }
+
+    .left-nav {
+        margin: 0px;
+    }
+
+    .myNavbar span {
+        display: none;
+    }
+    
+
+    .nav-button {
+        height: 30px;
+        width: 30px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        
+    }
+    .nav-button > b{
+        display: none;
+    }
+    .gundem-middle-item > .row > .col-md-1{
+       width: 25%;
+       margin-left: 55px;
+    }
+
+
+}
+
+@media screen and (max-width: 1399px) {
+
+    .left-nav {
+        margin: 0px;
+    }
+}

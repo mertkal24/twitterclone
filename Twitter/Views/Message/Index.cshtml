@@ -1,0 +1,86 @@
+﻿@model Twitter.Models.MainPageModel
+@{
+    ViewData["Title"] = "Message";
+    Layout = "~/Views/Shared/_RightEmtyLayout.cshtml";
+    var user = Model.User;
+}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" />
+<link href="~/css/msg.css" rel="stylesheet" />
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    .chat_people{
+        cursor: pointer;
+        margin-bottom:6px;
+        height:4rem;
+    }
+
+    .chat_people:hover {
+        background-color: #1da1f2;
+    }
+</style>
+<div id="@user.ID" style="display:none" class="autUser">@user.Name</div>
+<div class="col-md-9">
+    <div class="row">
+        <div class="col-md-5">
+            <h3 class=" text-center">Mesajlar</h3>
+        </div>
+        <div class="col-md-7">
+            
+        </div>
+    </div>
+    <div class="messaging">
+        <div class="inbox_msg">
+            <div class="inbox_people">
+                <div class="headind_srch">
+                    <div class="recent_heading">
+                        <h4>Kişiler</h4>
+                    </div>
+                    <div class="srch_bar">
+                        <div class="stylish-input-group">
+                            <input type="text" class="search-bar" placeholder="Search">
+                            <span class="input-group-addon">
+                                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inbox_chat">
+                    <div class="chat_list">
+                        @foreach (var item in Model.UserFriends)
+                        {
+                            <div id="@item.ID" class="chat_people">
+                                <div class="chat_img"> <img style="border-radius:30px;" src="@item.ProfilePicture" alt="sunil"> </div>
+                                <div class="chat_ib">
+                                    <h5 id="friendName" >@item.Name  @item.Surname</h5>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div  style="display:none;" class="mesgs">
+                <div id="hist" class="msg_history">
+                    <h5 id="usrNameSnd" class=" text-center"></h5>
+                </div>
+                <div class="type_msg">
+                    <div class="input_msg_write">
+                        <input type="text" class="write_msg" placeholder="Type a message" />
+                        <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/message.js"></script>
+

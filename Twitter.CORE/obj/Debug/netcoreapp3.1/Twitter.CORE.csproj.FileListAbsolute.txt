@@ -1,0 +1,12 @@
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\bin\Debug\netcoreapp3.1\Twitter.CORE.deps.json
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\bin\Debug\netcoreapp3.1\Twitter.CORE.dll
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\bin\Debug\netcoreapp3.1\Twitter.CORE.pdb
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.csprojAssemblyReference.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.AssemblyInfo.cs
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.dll
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.pdb
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\bin\Debug\netcoreapp3.1\Twitter.DATA.dll
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\bin\Debug\netcoreapp3.1\Twitter.DATA.pdb
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.CORE\obj\Debug\netcoreapp3.1\Twitter.CORE.csproj.CopyComplete

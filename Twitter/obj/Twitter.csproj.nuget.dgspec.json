@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter\\Twitter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\Twitter.CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\Twitter.CORE.csproj",
+        "projectName": "Twitter.CORE",
+        "projectPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\Twitter.CORE.csproj",
+        "packagesPath": "C:\\Users\\mert.kal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mert.kal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\Twitter.DATA.csproj": {
+                "projectPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\Twitter.DATA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\Twitter.DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\Twitter.DATA.csproj",
+        "projectName": "Twitter.DATA",
+        "projectPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\Twitter.DATA.csproj",
+        "packagesPath": "C:\\Users\\mert.kal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.DATA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mert.kal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter\\Twitter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter\\Twitter.csproj",
+        "projectName": "Twitter",
+        "projectPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter\\Twitter.csproj",
+        "packagesPath": "C:\\Users\\mert.kal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mert.kal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\Twitter.CORE.csproj": {
+                "projectPath": "C:\\Users\\mert.kal\\Desktop\\Bireysel Çalışmalarım\\BilgeAdamEğitim\\Twitter Ve Diğer Büyük Projeler\\Twitter\\Twitter.CORE\\Twitter.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "SweetAlert": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

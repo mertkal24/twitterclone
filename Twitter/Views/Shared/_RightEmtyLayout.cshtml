@@ -1,0 +1,173 @@
+﻿@model Twitter.Models.MainPageModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Twitter</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/sweetalert2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link href="~/css/Twitter.css" rel="stylesheet" />
+    <link href="~/css/Message.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 left">
+                <div class="row  position-fixed clearfix left-nav">
+                    <nav id="LeftNavbar" class="myNavbar">
+                        <ul class="list-group">
+                            <li class="list-group-item" style="width: 30%; height:30% ;">
+                                <a class="nav-link left-nav-link" href="@Url.Action("Index","Home")">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <img class="logo" src="~/img/twitico.png" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="@Url.Action("Index","Home")">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-home"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b> Anasayfa </b></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-hashtag"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b> Keşfet </b></span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-bell"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b>Bildirimler </b></span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="@Url.Action("Index","Message")">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b>Mesajlar </b></span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-map-marker"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b>Yer İşaretleri</b></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-list-alt"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b>Listeler</b></span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="@Url.Action("Index","Profile")">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-user-alt"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b>Profil</b></span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span><b> Daha Fazla</b> </span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="list-group-item mt-1">
+                                <div class="row">
+                                    <div class="col-md-12 pr-0">
+                                        <button type="button" class="nav-button">
+                                            <b>Tweetle</b>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+
+                            </li>
+                            <li class="list-group-item" style="margin-top:25vh">
+                                <div class="nav-link">
+                                    <div class="row">
+                                        <div class="col-md-2" style="text-align:right">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <span class="cıkıs-yap"><b>Çıkış Yap</b></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/sweetalert2.min.js"></script>
+    <script src="~/js/Twitter.js"></script>
+</body>
+</html>

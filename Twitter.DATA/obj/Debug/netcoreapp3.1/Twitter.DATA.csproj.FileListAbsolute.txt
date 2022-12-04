@@ -1,0 +1,24 @@
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.deps.json
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.runtimeconfig.json
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.runtimeconfig.dev.json
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.dll
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.pdb
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.csprojAssemblyReference.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.AssemblyInfo.cs
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.dll
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.pdb
+C:\Users\Casper\Desktop\SonProje\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.genruntimeconfig.cache
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.deps.json
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.runtimeconfig.json
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.runtimeconfig.dev.json
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.dll
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\bin\Debug\netcoreapp3.1\Twitter.DATA.pdb
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.csprojAssemblyReference.cache
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.AssemblyInfoInputs.cache
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.AssemblyInfo.cs
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.csproj.CoreCompileInputs.cache
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.dll
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.pdb
+D:\Çalışma Klasörü\BilgeAdamEğitim\Twitter Ve Diğer Büyük Projeler\Twitter\Twitter.DATA\obj\Debug\netcoreapp3.1\Twitter.DATA.genruntimeconfig.cache

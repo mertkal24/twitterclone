@@ -1,0 +1,182 @@
+﻿@model Twitter.Models.MainPageModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var user = Model.User;
+}
+<style>
+    .profile-banner {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .profile-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile-nav-link {
+        height: 3rem;
+    }
+
+        .profile-nav-link:hover {
+            background-color: #e8f5fe;
+            color: #00aced;
+            border-radius: 0px;
+        }
+
+    .add-friend-item {
+        width: 100%;
+        background-color: white;
+        border: 2px #1da1f2 solid;
+        color: #1da1f2;
+        border-radius: 25px;
+    }
+    .delete-friend {
+        width: 100%;
+        background-color: white;
+        border: 2px #1da1f2 solid;
+        color: #1da1f2;
+        border-radius: 25px;
+    }
+</style>
+
+<div class="container-fluid p-0">
+    <div class="row">
+        <img class="profile-banner" src="@user.BannerPicture" alt="">
+    </div>
+    <div class="row">
+        <div class="col-md-8" style="margin-top:-100px;">
+            <img class="img-fluid" style="float: left; border-radius:50%; height: 200px; width: 200px; border:3px solid white;" src="@user.ProfilePicture" alt="">
+        </div>
+        <div class="col-md-4" style="text-align: right;">
+            <button class="edit-profile"><b style="padding:0.2rem">Profili Düzenle</b></button>
+        </div>
+    </div>
+    <div class="row profile-inner"><b style="font-size:22px;">@user.Name  @user.Surname</b></div>
+    <div class="row profile-inner">  <a style="font-size:13px; padding-bottom:0.7rem ;" href="">Kişi Bilgilerini Çevir</a> </div>
+    <div style="margin-bottom:10px;" class="row profile-inner">
+        <span style="font-size: 15px; padding-bottom: 0.3rem;"><i class="fas fa-golf-ball ballon"></i> @user.BirthDate  </span>
+        <span style="font-size: 15px; padding-bottom:0.3rem ; padding-left:15px; "><i class="far fa-calendar-alt date"></i> @user.CreatedDate</span>
+    </div>
+    <div class="row profile-inner">
+       
+    </div>
+
+
+
+    <div class="row">
+        <ul class="nav nav-tabs" style="width:100%">
+
+            <li class="nav-item" style="width: 25%;">
+                <a class="nav-link active profile-nav-link" data-toggle="tab" href="#Tweetler" style="padding-left:1rem; padding-right:1rem;"><b>Tweetler </b></a>
+            </li>
+            <li class="nav-item" style="width: 25%;">
+                <a class="nav-link profile-nav-link" data-toggle="tab" href="#FriendRequest" style="padding-left:1rem; padding-right:1rem;"><b>İstekler</b></a>
+            </li>
+            <li class="nav-item" style="width: 25%;">
+                <a class="nav-link profile-nav-link" data-toggle="tab" href="#Arkadaslar" style="padding-left:1rem; padding-right:1rem;"><b>Arkadaşlar</b></a>
+            </li>
+            <li class="nav-item" style="width: 25%;">
+                <a class="nav-link profile-nav-link" data-toggle="tab" href="#Begendikleri" style="padding-left:1rem; padding-right:1rem;"><b>Beğeni</b></a>
+            </li>
+
+
+        </ul>
+    </div>
+
+
+    <div class="tab-content">
+        <div id="Tweetler" class="tab-pane active">
+            @foreach (var item in Model.UserPosts)
+            {
+                <div class="tweet-link" href="">
+                    <div class="row tweet">
+                        <div class="col-md-2">
+                            <img class="rounded-circle img-fluid"
+                                 style="height:60px; width: 60px; border:1px  #eef0f2 solid; margin-left: 0.7rem;"
+                                 src="@user.ProfilePicture"
+                                 alt="">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <diw class="row">
+                                        <span style="padding-left: 0px;"><b>@user.Name @user.Surname</b> </span>
+                                    </diw>
+                                    <div class="row">
+                                        @item.PostContent
+                                    </div>
+                                    <div class="row">
+                                        <img style="width: 100%; padding:0px; height:300px; border-radius: 25px;"
+                                             src="/img/twit-img.jpg" alt="">
+                                    </div>
+                                    <div class="row post-buttons">
+                                        <div class="col-md-3 postButton">
+                                            <a href="#"><i class="far fa-comment"></i></a>
+                                        </div>
+                                        <div class="col-md-3 postButton">
+                                            <i class="fas fa-retweet"></i>
+                                        </div>
+                                        <div class="col-md-3 postButton">
+                                            <i class="far fa-heart"></i>
+                                        </div>
+                                        <div class="col-md-3 postButton">
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1" style="text-align:center">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div id="FriendRequest" class="tab-pane">
+            @foreach (var item in Model.UserRequestList)
+            {
+                <div id="oneri-item" class="row oneri-item">
+                    <div class="col-md-4 oneri-item-foto">
+                        <img class="rounded-circle img-fluid oneri-item-picture"
+                             src="@item.ProfilePicture"
+                             alt="">
+                    </div>
+                    <div class="col-md-4 oneri-item-user-name">
+                        <b>@item.Name  @item.Surname</b>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="@item.ID" class="add-friend-item accept-friend"><b>Kabul Et</b></button>
+                    </div>
+                </div>
+            }
+        </div>
+        <div id="Arkadaslar" class="tab-pane">
+            @foreach (var item in Model.UserFriends)
+            {
+                <div style="padding-left:40px;padding-right:40px; border-bottom:none" id="oneri-item" class="row oneri-item">
+                    <div class="col-md-2 oneri-item-foto">
+                        <img class="rounded-circle img-fluid oneri-item-picture"
+                             src="@item.ProfilePicture"
+                             alt="">
+                    </div>
+                    <div class="col-md-7 oneri-item-user-name">
+                        <b>@item.Name  @item.Surname</b>
+                    </div>
+                    <div class="col-md-3">
+                        <button id="@item.ID" class="delete-friend "><b>Sil</b></button>
+                    </div>
+                </div>
+            }
+        </div>
+        <div id="Begendikleri" class="tab-pane">
+            Beğendikleri
+        </div>
+    </div>
+
+</div>
+
+

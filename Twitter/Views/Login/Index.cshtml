@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<link href="~/css/LoginPage.css" rel="stylesheet" />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 p-0">
+            <img class="loginLeftBanner" src="~/img/LoginBanner.png" alt="Alternate Text" />
+        </div>
+        <div class="col-md-6 p-0">
+            <div class="row m-0">
+                <div class="loginForm">
+                    <div class="row m-0">
+                        <div class="col-md-5 p-0">
+                            <input class="login-input" id="Email" type="text" placeholder="Telefon veya e-posta" name="name" value="" />
+                        </div>
+                        <div class="col-md-5 p-0 ">
+                            <input class="login-input" id="Password" type="text" name="name" value="" placeholder="Şifre" />
+                            <a class="sifremi-unuttum-link" href="#"> Şifreni Mi Unuttun</a>
+                        </div>
+                        <div class="col-md-2 p-0">
+                            <button class="just-border-white-btn giris-yap"><b>Giriş Yap</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="loginOrta">
+                    <div class="row m-0">
+                        <img class="login-logo" src="/img/Twitter-Logo.png" alt="Alternate Text" />
+                    </div>
+                    <div class="row ml-0 mt-3 mb-lg-3">
+                        <h3>  <b>Dünyada şu anda olup bitenleri gör</b></h3>
+                    </div>
+                    <div class="row ml-0" style="margin-top:4rem;">
+                        <h5><b>Bugün Katıl</b></h5>
+                    </div>
+                    <div class="row ml-0">
+                        <button class="blue-white-text-button"><b>Kaydol</b></button>
+                    </div>
+                    <div class="row ml-0">
+                        <button class="just-border-white-btn"><b>Giriş Yap</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/Login.js"></script>
+
